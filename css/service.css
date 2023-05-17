@@ -1,0 +1,47 @@
+.service-section{
+    width: 100%;
+    height: auto;
+    display:flex;
+    text-align: center;
+    align-items: center;
+    padding: 80px 0;
+    background-color: rgba(128, 128, 128, 0.605);
+}
+.service-container{
+    padding-top: 90px;
+    width: 100%;
+    height: auto;
+}
+.divBox-con{
+    flex: 30%;
+    width: 90%;
+    padding: 25px 0;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.divBox{
+    position: relative;
+    width: 300px;
+    height: 130px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 10px;
+    padding-top: 50px;
+}
+.divBox div{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 25px;
+   left: 42%;
+   top: -20px;
+    border: 2px solid white;
+}

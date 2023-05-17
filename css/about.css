@@ -1,0 +1,137 @@
+
+.about-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: white;
+    padding-top: 55px !important;
+}
+.about-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100% !important;
+  max-width: 1300px;
+    margin: 0 auto;
+  
+
+}
+.about-container .con{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+.profile{
+    width: 320px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+    overflow: hidden;
+    background: white;
+    background: linear-gradient(0deg, rgba(195, 168, 34, 0.486) 0%, rgba(153,148,0,0.03235880533854163) 93%);
+}
+.profile::before{
+    position: absolute;
+    content: '';
+    width: 350px;
+    height: 350px;
+    top: -20px;
+    left: 140px;
+  border-radius: 50%;
+    border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+    rotate: 20deg;
+    background-color: rgba(255, 166, 0, 0.037);
+}
+.conbfor::before{
+    position: absolute;
+    content: '';
+    width: 350px;
+    height: 350px;
+    top: -20px;
+    left: 140px;
+  border-radius: 50%;
+    border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+    rotate: 90deg;
+    background-color: rgba(255, 166, 0, 0.037);
+}
+.about-text{
+    position: relative;
+    flex: 50%;
+    font-size: 20px;
+}
+.icon i{
+    margin: 0 10px;
+}
+.anim-typ{
+    width: auto;
+    height: 20px;
+    padding-right: 4px;
+    color: orange;
+    border: none;
+    border-right: 2px solid orange;
+    text-align: left;
+    margin: 20px 0;
+
+}
+.icon i:hover{
+ 
+    cursor: pointer;
+    color: rgb(220, 146, 9);
+
+    transition: 0px;
+}
+.profile img{
+   padding-top: 30px;
+   padding-left: 40px;
+}
+
+
+.ab-icon{
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 25px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    
+}
+.con{
+    position: relative;
+}
+.icon-wordpress{
+    right: 130px;
+    top: 100px;
+    color: blue;
+    /* filter: drop-shadow(0 0 0.75rem crimson); */
+}
+.icon-html{
+    overflow: visible;
+    left: -30px;
+    top: 120px;
+    color: red; 
+    
+}
+.icon-css{
+    bottom: -0px;
+    left: -20px;
+    color: blue;
+}
+.icon-javascript{
+    top: -160px;
+    left: 240px;
+    color: black;
+}
+
+@media only screen and (max-width: 767px) {
+    .about-container{
+        display: block;
+    
+    }
+}
