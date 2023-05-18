@@ -49,11 +49,11 @@
     width: 100%;
     text-align: right;
     padding: 25px;
-   
+    padding-right: 40px;
    padding-left: 20%;
 }
 .barCon{
-    margin: 60px 0;
+    margin: 55px 0;
 }
 .bars{
     position: relative;
@@ -66,7 +66,7 @@
     position: absolute;
     right: 0;
     top: 0;
-    width: 90%;
+    /* width: 90%; */
     height:8px;
     background-color: rgb(6, 109, 109);
     text-align: left;
@@ -87,9 +87,31 @@
     width: 100%;
     text-align: left;
     padding: 25px;
+    padding-left: 40px;
     padding-right: 125px;
 }
 
 .expCon{
      margin: 40px 0;
+}
+.html{
+    width: 90%;
+}
+.css{
+    width: 90%;
+}
+.tailwind{
+    width: 70%;
+}
+.bootstrap{
+    width: 80%;
+}
+.javascript{
+    width: 75%;
+}
+.vb{
+    width: 80%;
+}
+.wordpress{
+    width: 75%;
 }

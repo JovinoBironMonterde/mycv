@@ -8,7 +8,7 @@ font-family: 'Roboto', sans-serif; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+ font-family: 'Poppins', sans-serif;
 }
 .page-container{
     position: relative;
@@ -33,12 +33,20 @@ button{
 span{
   color: var(--span-primary);
 }
+p{
+  font-size: 16px;
+}
+
 button:hover{
   background-color: rgb(222, 146, 5);
   border: none;
   color: aliceblue;
   transition: all .3s ease;
   cursor: pointer;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
 }
 
 
