@@ -26,8 +26,8 @@ button{
   /* padding: 10px 20px; */
   width: 150px;
   height: 40px;
-  background-color: orange;
-  border-radius: 20px;
+  background-color: orange !important;
+  border-radius: 20px !important;
   border: 1px solid black;
 }
 span{
@@ -38,7 +38,7 @@ p{
 }
 
 button:hover{
-  background-color: rgb(222, 146, 5);
+  background-color: rgb(222, 146, 5) !important;
   border: none;
   color: aliceblue;
   transition: all .3s ease;

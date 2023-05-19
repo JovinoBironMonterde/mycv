@@ -1,18 +1,49 @@
 .project-section{
     width: 100%;
-    height: 70vh;
+    height: auto;
+    padding: 50px 0;
     background-color: #5a5552;
 }
-.mySlides {
-    display:none
-}
-
-.project{
-    position: relative;
+.carouselExampleDark{
     width: 100%;
     height: 100%;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center;
+}
+.carousel-inner{
+    width: 700px;
+    height: 450px;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+ 
+}
+.nxtbutton button{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: transparent !important;
 
 }
-.project img{
-    width: 100%;
+.nxtbutton button span{
+    font-size: 30px;
+    color: orange !important;
 }
+.carousel-caption{
+    width: 100%;
+    left: 0;
+    bottom: 0 !important;
+    background-color: #8654129f;
+}
+.carousel-indicators{
+    position: absolute;
+    bottom: -50px;
+  
+}
+.carousel-indicators .active{
+    background-color: orange !important;
+}
+
+  
+
