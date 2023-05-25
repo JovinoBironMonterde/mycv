@@ -6,6 +6,7 @@
     align-items: center;
     padding: 80px 0;
     background-color: rgba(128, 128, 128, 0.605);
+    top: 50px;
 }
 .service-container{
     padding-top: 90px;

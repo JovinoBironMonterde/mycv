@@ -42,20 +42,21 @@
                 </label>
 
                     <ul>
-                        <label for="mycheck" class="burger_close">
+                        <label class="burger_close" onclick="closenav()">
                             <div class="cbar1"></div>
                             <div class="cbar2"></div>
                         </label>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Profession</a></li>
-                        <li><a href="#">Service</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#profession">Profession</a></li>
+                        <li><a href="#service">Service</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     
                     </ul>
                   
               
             </div>
+          
         </nav>
     
         <!-- START HOME SECTION -->
@@ -68,15 +69,13 @@
               <span class="anim-skill"></span>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
-              ratione!
+              I’m focused on building responsive front-end web applications integrating back-end technologies.
             </p>
             <div class="hero-btn">
-              <button id="btnproject">
-                View Project 
-              </button>
-
-              <button>Hire Me!</button>
+                <a class="linked" href="#project"> View Project </a>
+                <a class="linked" href="">Hire Me!</a>
+        
+           
             </div>
           </div>
         </section>
@@ -98,11 +97,12 @@
                         <h1>About <span>Me</span></h1>
                         <h3>Jovino Mobterde</h3>
                         <span class="anim-typ"></span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non impedit sapiente, inventore quaerat repellendus veritatis consequatur ex esse, 
-                            voluptatem assumenda enim, quae veniam praesentium molestiae repudiandae dolores reiciendis ullam? Fugiat.<br />
+                        <p>I specialize in building mobile responsive front-end UI applications that connect with API’s and other backend technologies. I’m passionate about learning new technologies and understand there is more than one way to accomplish a task. Though I am most proficient in building front-end applications using HTML, CSS, Javascript, and React, I am a quick learner and can pick up new tech stacks as needed. I believe that
+                           being a great developer is not using one specific language, but choosing the best tool for the job.</p><br />
                            <br />
                             <div class="icon">
-                                <button class="btn abobtn">Download CV</button>
+                                <a class="linked" href="https://drive.google.com/file/d/1E8PFibwYJuEy4lkffAk7JJJCl5FI4OLC/view?usp=drive_link" >Download CV</a>
+                          
                                 <i class="fa fa-facebook-f"></i>
                                  <i class="fa fa-twitter"></i>
                                 <i class="fa fa-youtube"></i>
@@ -118,7 +118,7 @@
 
     
         <!-- START EXPERIENCE SECTION -->
-        <section class="experience-section" id="experience">
+        <section class="experience-section" id="profession">
              
             <div class="exp-container">
                 <div class="profession">
@@ -186,26 +186,41 @@
                     <div class="experience-container">
                           <h2>Experience</h2>
                         <div class="expCon reveal fade-bo">
-                            <h2>Concentrix</h2>
-                            <h4>September 2017 - December 2021</h4>
-                            <h4>Security Control Officer</h4>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                                Nemo ipsam eum fugit dignissimos facere nobis saepe ut sint porro aliquid.</p>
+                            <h3>Concentrix</h3>
+                            <h5>September 2017 - December 2021</h5>
+                            <h5>Security Control Officer</h5>
+                            <p>Monitor and maintain surveillance systems, observe
+                                suspicious activity, alert authorities during security
+                                breaches, prepare incident reports, maintain
+                                equipment, comply with policies, and collaborate
+                                with security teams</p>
                         </div>
                          <div class="expCon reveal fade-bottom">
-                            <h2>Government Municipality</h2>
-                            <h4>February 2022 - July 2022</h4>
-                            <h4>Office Clerk</h4>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                                Nemo ipsam eum fugit dignissimos facere nobis saepe ut sint porro aliquid.</p>
+                            <h3>Municipal Of Babatngon</h3>
+                            <h5>February 2022 - July 2022</h5>
+                            <h5>Office Clerk</h5>
+                            <p>Assisting property owners and taxpayers with
+                                inquiries related to assessments, property values, tax
+                                calculations, and assessment appeals</p>
+                        </div>
+                        <div class="expCon reveal fade-bottom">
+                            <h3>Automation and Security, Inc.</h3>
+                            <h5>November 2022 - January 2023</h5>
+                            <h5>Office Clerk</h5>
+                            <p>Maintain organized and up-to-date files, documents,
+                                and records related to the company's operations,
+                                including customer orders, invoices, and contracts.</p>
                         </div>
 
                          <div class="expCon reveal fade-bottom">
-                            <h2>Telmo Solution</h2>
-                            <h4>January 2023 - April 2023</h4>
-                            <h4>Front-End Web Developer</h4>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                                Nemo ipsam eum fugit dignissimos facere nobis saepe ut sint porro aliquid.</p>
+                            <h3>Telmo Solution</h3>
+                            <h5>January 2023 - April 2023</h5>
+                            <h5>Front-End Web Developer</h5>
+                            <p>Take design mockups and translate them into clean,
+                                responsive, and pixel-perfect web interfaces. Write
+                                well-structured HTML, CSS, and JavaScript code to
+                                ensure smooth integration with backend systems.
+                                </p>
                         </div>
 
                         
@@ -216,52 +231,110 @@
          <!-- END EXPERIENCE SECTION -->
 
          <!-- START PROJECT SECTION -->
-        <section class="project-section">
-          
-                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                  
-                    <div class="carousel-inner">
-                      <div class="carousel-item active" data-bs-interval="10000">
-                        <img src="https://images.pexels.com/photos/4553036/pexels-photo-4553036.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                          <h5>First slide label</h5>
-                          <p>Some representative placeholder content for the first slide.</p>
-                        </div>
-                      </div>
-                      <div class="carousel-item" data-bs-interval="2000">
-                        <img src="https://images.pexels.com/photos/443446/pexels-photo-443446.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                          <h5>Second slide label</h5>
-                          <p>Some representative placeholder content for the second slide.</p>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img src="https://images.pexels.com/photos/1324803/pexels-photo-1324803.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                          <h5>Third slide label</h5>
-                          <p>Some representative placeholder content for the third slide.</p>
-                          <span><a href="https://jovinobironmonterde.github.io/losangeles_CT_Skill-test/">Preview</a></span>
-                        </div>
-                      </div>
+        <section class="project-section" id="project">
+        <div class="project-container">
+            <h1>Projects</h1>
+            <div class="projectCon">
+                <div class="project">
+                    <img src="./img/lamplight.PNG" alt="" width="100%">
+                    <div class="project-text">
+                        <h2>Title</h2>
+                       <div class="imgCon">
+                        <div class="img"><img src="./img/nextjs.png" alt="" width="100%"></div>
+                        <div class="img"><img src="./img/css.png" alt="" width="100%"></div>
+                        <div class="img"><img src="./img/tailwind.png" alt="" width="100%"></div>
+                        <div class="img"><img src="./img/js.png" alt="" width="100%"></div> 
                     </div>
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                      </div>
-                    <div class="nxtbutton">
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                        </button>
+                    <div class="div-btn">
+                        <a href="https://github.com/JovinoBironMonterde/Lamplight_mobileSystem" target="_blank">View Code</a>
+                        <a href="#" target="_blank">View Project</a>
                     </div>
-                    <div class="nxtbutton">
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                        </button>
                     </div>
-                  </div>
+                </div>
+                <div class="project">
+                    <img src="./img/kylin.PNG" alt="" width="100%">
+                    <div class="project-text">
+                        <h2>Title</h2>
+                       <div class="imgCon">
+                        <div class="img"><img src="./img/html.png" alt="" width="100%"></div>
+                        <div class="img"><img src="./img/css.png" alt="" width="100%"></div>
+                        <div class="img"><img src="./img/bootstrap.png" alt="" width="100%"></div>
+                        <div class="img"><img src="./img/js.png" alt="" width="100%"></div> 
+                    </div>
+                    <div class="div-btn">
+                        <a href="https://github.com/JovinoBironMonterde/LoanSystem_project" target="_blank">View Code</a>
+                        <a href="https://jovinobironmonterde.github.io/LoanSystem_project/" target="_blank">View Project</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="./img/projec1.PNG" alt="" width="100%">
+                    <div class="project-text">
+                        <h2>Title</h2>
+                       <div class="imgCon">
+                        <div class="img"><img src="./img/html.png" alt="" width="100%"></div>
+                        <div class="img"><img src="./img/css.png" alt="" width="100%"></div>
+                        <div class="img"><img src="./img/bootstrap.png" alt="" width="100%"></div>
+                        <div class="img"><img src="./img/js.png" alt="" width="100%"></div> 
+                    </div>
+                    <div class="div-btn">
+                        <a href="https://github.com/JovinoBironMonterde/losangeles_CT_Skill-test" target="_blank">View Code</a>
+                        <a href="https://jovinobironmonterde.github.io/losangeles_CT_Skill-test/" target="_blank">View Project</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="./img/stavick.PNG" alt="" width="100%">
+                    <div class="project-text">
+                        <h2>Title</h2>
+                       <div class="imgCon">
+                        <div class="img"><img src="./img/wp.png" alt="" width="100%"></div>
+                        <div class="img"><img src="./img/css.png" alt="" width="100%"></div>
+                    </div>
+                    <div class="div-btn">
+                        <a href="#" target="_blank">View Code</a>
+                        <a href="https://dev.stavickstudios.com/" target="_blank">View Project</a>
+                    </div>
+                    </div>
+                </div>
+                
+                <div class="project">
+                    <img src="./img/projec1.PNG" alt="" width="100%">
+                    <div class="project-text">
+                        <h2>Title</h2>
+                       <div class="imgCon">
+                        <div class="img"><img src="./img/html.png" alt="" width="100%"></div>
+                        <div class="img"><img src="./img/css.png" alt="" width="100%"></div>
+                        <div class="img"><img src="./img/bootstrap.png" alt="" width="100%"></div>
+                        <div class="img"><img src="./img/js.png" alt="" width="100%"></div> 
+                    </div>
+                    <div class="div-btn">
+                        <a href="#" target="_blank">View Code</a>
+                        <a href="#" target="_blank">View Project</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="./img/assesment.PNG" alt="" width="100%">
+                    <div class="project-text">
+                        <h4>Assesment Web Site</h4>
+                       <div class="imgCon">
+                        <div class="img"><img src="./img/html.png" alt="" width="100%"></div>
+                        <div class="img"><img src="./img/css.png" alt="" width="100%"></div>
+                        <div class="img"><img src="./img/bootstrap.png" alt="" width="100%"></div>
+                        <div class="img"><img src="./img/js.png" alt="" width="100%"></div> 
+                    </div>
+                    <div class="div-btn">
+                        <a href="https://github.com/JovinoBironMonterde/myassestment" target="_blank">View Code</a>
+                        <a href="https://jovinobironmonterde.github.io/myassestment/" target="_blank">View Project</a>
+                    </div>
+                    </div>
+                </div>
+                
+               
+            </div>
+        </div>
+         
     
         </section>
         <!-- START PROJECT SECTION -->
@@ -313,41 +386,41 @@
                       <span class="contributionlink"><a href="https://storyset.com/online">Online illustrations by Storyset</a></span>
                     </div>
                     <div class="form-container">
-                    <form action="https://api.web3forms.com/submit" method="POST" id="form" class="needs-validation">
-                      
-                                <input type="hidden" name="access_key" value="b90582c5-f1cf-4903-bfb8-0f47ecab821b" />
-                                <input type="hidden" name="subject" value="You have a new message!" />
-                                <input type="checkbox" name="botcheck" id="" style="display: none;" />
+                        <form action="https://api.web3forms.com/submit" method="POST" id="form" class="needs-validation">
+                        
+                                    <input type="hidden" name="access_key" value="b90582c5-f1cf-4903-bfb8-0f47ecab821b" />
+                                    <input type="hidden" name="subject" value="You have a new message!" />
+                                    <input type="checkbox" name="botcheck" id="" style="display: none;" />
 
-                                <div class="mb-6">
-                                  <!-- <label for="name" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Full Name</label> -->
-                                  <input type="text" name="name" id="name" placeholder="Joe Smith" required class="inputField cstm-mb-3 " />
-                                    <label class="cstm-label">Fullname</label>
-                                </div>
-                                <div class="mb-6">
-                                  <!-- <label for="email" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Email Address</label> -->
-                                  <input type="email" name="email" id="email" placeholder="you@sample.com" required class="inputField cstm-mb-3 cstm-mb-3 " />
-                                  <label class="cstm-label">Email Address</label>
-                                </div>
-                                <div class="mb-6">
-                                  <!-- <label for="phone" class="text-sm text-gray-600 dark:text-gray-400">Phone Number</label> -->
-                                  <input type="text" name="phone" id="phone" placeholder="Your Phone Number" required class="inputField cstm-mb-3 " />
-                                  <label class="cstm-label">Phone Number</label>
-                                </div>
-                                <div class="mb-6">
-                                  <!-- <label for="message" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Your Message</label> -->
+                                    <div class="mb-6">
+                                    <!-- <label for="name" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Full Name</label> -->
+                                    <input type="text" name="name" id="name" placeholder="Joe Smith" required class="inputField cstm-mb-3 " />
+                                        <label class="cstm-label">Fullname</label>
+                                    </div>
+                                    <div class="mb-6">
+                                    <!-- <label for="email" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Email Address</label> -->
+                                    <input type="email" name="email" id="email" placeholder="you@sample.com" required class="inputField cstm-mb-3 cstm-mb-3 " />
+                                    <label class="cstm-label">Email Address</label>
+                                    </div>
+                                    <div class="mb-6">
+                                    <!-- <label for="phone" class="text-sm text-gray-600 dark:text-gray-400">Phone Number</label> -->
+                                    <input type="text" name="phone" id="phone" placeholder="Your Phone Number" required class="inputField cstm-mb-3 " />
+                                    <label class="cstm-label">Phone Number</label>
+                                    </div>
+                                    <div class="mb-6">
+                                    <!-- <label for="message" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Your Message</label> -->
 
-                                  <textarea rows="2" name="message" id="message" placeholder="Write somthing..." class="inputField cstm-mb-3 " required></textarea>
-                                  <label class="cstm-label">Message</label>
-                                </div>
-                                <div class="mb-6">
-                                  <button type="submit" class="inputbtn">
-                                    Send Message
-                                  </button>
-                                </div>
-                                <p class="text-base text-center text-gray-400" id="result"></p>
-                    </form>
-                  </div>
+                                    <textarea rows="2" name="message" id="message" placeholder="Write somthing..." class="inputField cstm-mb-3 " required></textarea>
+                                    <label class="cstm-label">Message</label>
+                                    </div>
+                                    <div class="mb-6">
+                                    <button type="submit" class="inputbtn">
+                                        Send Message
+                                    </button>
+                                    </div>
+                                    <p class="text-base text-center text-gray-400" id="result"></p>
+                        </form>
+                    </div>
                      
               </div>
             </div>
@@ -378,5 +451,11 @@
     <script src="./js/typing.js"></script>
     <script src="./js/slider.js"></script>
 
+    <script>
+      const check = document.getElementById("mycheck");
+      function closenav(){
+          check.checked =false;
+      }
+    </script>
 </body>
 </html>

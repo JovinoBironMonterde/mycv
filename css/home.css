@@ -60,3 +60,10 @@
   margin: 0 5%;
 }
 
+@media (max-width: 475px){
+  .hero-btn button{
+    width: 100%;
+    margin: 5px;
+  }
+}
+
