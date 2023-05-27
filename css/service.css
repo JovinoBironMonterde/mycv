@@ -26,8 +26,8 @@
 
 .divBox{
     position: relative;
-    width: 300px;
-    height: 130px;
+    width: 350px;
+    height: 150px;
     background-color: black;
     color: white;
     text-align: center;
@@ -39,27 +39,28 @@
 }
 .divBox .hidden p{
     position: absolute;
-      width: 300px;
+    width: 100%;
+      max-width: 350px;
     height: 120px;
     left: 0;
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 50px;
     bottom:-130px ;
       transition: all .5s ease;
       font-size: 14px;
-    
+        padding: 50px 20px;
      /* background-image: linear-gradient( rgba(218, 163, 14, 0.737), rgba(204, 11, 11, 0.6)); */
 }
 .divBox .hidden{
     position: relative;
-    width: 300px;
+    width: 100%;
+    max-width: 350px;
     height: 90px;
     left: 0;
     top: -10px;
       border-radius: 5px;
     border: none;
-    z-index: 9999999999;
+    z-index: 999999;
     background-color: transparent;
     overflow: hidden;
 }
@@ -67,6 +68,7 @@
     left: 0;
    bottom: -20px;
    transition: all .5s ease;
+
 }
 .divBox .hidden:hover span{
        top: -5px;
@@ -99,5 +101,5 @@ background-image: linear-gradient( rgba(218, 163, 14, 0.737), rgba(204, 11, 11, 
    left: 42%;
    top: -20px;
     border: 2px solid white;
-    z-index: 9999999999999999;
+    z-index: 99999999;
 }

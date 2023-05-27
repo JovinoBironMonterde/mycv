@@ -21,6 +21,11 @@
 </head>
 <body>
     <div class="page-container">
+        <div class="arrow-up" id="topbtn">
+            <a href="#home">
+            <i class="fa fa-arrow-up"></i>
+        </a>
+        </div>
         <div class="bg-slide">
             <div style="background-image:url(https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)"></div>
             <div style="background-image:url(https://images.pexels.com/photos/3987066/pexels-photo-3987066.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)"></div>
@@ -28,10 +33,13 @@
             <div style="background-image:url(https://images.pexels.com/photos/390392/pexels-photo-390392.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)"></div>
             <div style="background-image:url(https://images.pexels.com/photos/454507/pexels-photo-454507.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)"></div>
         </div>
+       
         <nav id="mynavbar">
             <div class="nav-con">
                 <div class="logo">
-                    <h1>Port<span>folio</span></h1>
+                    <a href="#home">
+                    <img src="./img/logo2.png" alt="" width="100%">
+                </a>
                 </div>
              
                 <input type="checkbox" name="" id="mycheck" class="check-dnon">
@@ -46,11 +54,11 @@
                             <div class="cbar1"></div>
                             <div class="cbar2"></div>
                         </label>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#profession">Profession</a></li>
-                        <li><a href="#service">Service</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#home" onclick="closenav()">Home</a></li>
+                        <li><a href="#about" onclick="closenav()">About</a></li>
+                        <li><a href="#profession" onclick="closenav()">Profession</a></li>
+                        <li><a href="#service" onclick="closenav()">Service</a></li>
+                        <li><a href="#contact" onclick="closenav()">Contact</a></li>
                     
                     </ul>
                   
@@ -58,7 +66,6 @@
             </div>
           
         </nav>
-    
         <!-- START HOME SECTION -->
         <section class="home-section" id="home">
              <div class="home-container">
@@ -72,9 +79,9 @@
               I’m focused on building responsive front-end web applications integrating back-end technologies.
             </p>
             <div class="hero-btn">
-                <a class="linked" href="#project"> View Project </a>
-                <a class="linked" href="">Hire Me!</a>
-        
+                <a class="linked" type="button" href="#project"> View Project </a>
+                <a class="linked" type="button" href="">Hire Me!</a>
+            
            
             </div>
           </div>
@@ -99,14 +106,13 @@
                         <span class="anim-typ"></span>
                         <p>I specialize in building mobile responsive front-end UI applications that connect with API’s and other backend technologies. I’m passionate about learning new technologies and understand there is more than one way to accomplish a task. Though I am most proficient in building front-end applications using HTML, CSS, Javascript, and React, I am a quick learner and can pick up new tech stacks as needed. I believe that
                            being a great developer is not using one specific language, but choosing the best tool for the job.</p><br />
-                           <br />
+                        
                             <div class="icon">
-                                <a class="linked" href="https://drive.google.com/file/d/1E8PFibwYJuEy4lkffAk7JJJCl5FI4OLC/view?usp=drive_link" >Download CV</a>
+                                <a class="linked" type="button" href="https://drive.google.com/file/d/1E8PFibwYJuEy4lkffAk7JJJCl5FI4OLC/view?usp=drive_link" >Download CV</a>
                           
-                                <i class="fa fa-facebook-f"></i>
-                                 <i class="fa fa-twitter"></i>
-                                <i class="fa fa-youtube"></i>
-                                <i class="fa fa-instagram"></i>
+                               <a href="https://www.facebook.com/jhovi.norib" class="btnsocial"><i class="fa fa-facebook-f"></i></a> 
+                                 <a href="https://twitter.com/jovinomntrd" class="btnsocial"><i class="fa fa-twitter"></i></a>
+                                <a href="https://www.instagram.com/stfselfwin/" class="btnsocial"><i class="fa fa-instagram"></i></a> 
                             </div>
                     </div>
 
@@ -181,7 +187,9 @@
                         </div>
                     </div>
                 </div>
-
+                <div class="linr-hr">
+                    <hr>
+                </div>
                 <div class="experience">
                     <div class="experience-container">
                           <h2>Experience</h2>
@@ -195,6 +203,9 @@
                                 equipment, comply with policies, and collaborate
                                 with security teams</p>
                         </div>
+                        <div class="linr-hr2">
+                            <hr>
+                        </div>
                          <div class="expCon reveal fade-bottom">
                             <h3>Municipal Of Babatngon</h3>
                             <h5>February 2022 - July 2022</h5>
@@ -202,6 +213,9 @@
                             <p>Assisting property owners and taxpayers with
                                 inquiries related to assessments, property values, tax
                                 calculations, and assessment appeals</p>
+                        </div>
+                        <div class="linr-hr2">
+                            <hr>
                         </div>
                         <div class="expCon reveal fade-bottom">
                             <h3>Automation and Security, Inc.</h3>
@@ -211,7 +225,9 @@
                                 and records related to the company's operations,
                                 including customer orders, invoices, and contracts.</p>
                         </div>
-
+                        <div class="linr-hr2">
+                            <hr>
+                        </div>
                          <div class="expCon reveal fade-bottom">
                             <h3>Telmo Solution</h3>
                             <h5>January 2023 - April 2023</h5>
@@ -238,7 +254,7 @@
                 <div class="project">
                     <img src="./img/lamplight.PNG" alt="" width="100%">
                     <div class="project-text">
-                        <h2>Title</h2>
+                        <h5>Lamp Light Page</h5>
                        <div class="imgCon">
                         <div class="img"><img src="./img/nextjs.png" alt="" width="100%"></div>
                         <div class="img"><img src="./img/css.png" alt="" width="100%"></div>
@@ -254,7 +270,7 @@
                 <div class="project">
                     <img src="./img/kylin.PNG" alt="" width="100%">
                     <div class="project-text">
-                        <h2>Title</h2>
+                        <h5>Kylin Project</h5>
                        <div class="imgCon">
                         <div class="img"><img src="./img/html.png" alt="" width="100%"></div>
                         <div class="img"><img src="./img/css.png" alt="" width="100%"></div>
@@ -270,7 +286,7 @@
                 <div class="project">
                     <img src="./img/projec1.PNG" alt="" width="100%">
                     <div class="project-text">
-                        <h2>Title</h2>
+                        <h5>Title</h5>
                        <div class="imgCon">
                         <div class="img"><img src="./img/html.png" alt="" width="100%"></div>
                         <div class="img"><img src="./img/css.png" alt="" width="100%"></div>
@@ -286,7 +302,7 @@
                 <div class="project">
                     <img src="./img/stavick.PNG" alt="" width="100%">
                     <div class="project-text">
-                        <h2>Title</h2>
+                        <h5>Stavick Studios</h5>
                        <div class="imgCon">
                         <div class="img"><img src="./img/wp.png" alt="" width="100%"></div>
                         <div class="img"><img src="./img/css.png" alt="" width="100%"></div>
@@ -301,7 +317,7 @@
                 <div class="project">
                     <img src="./img/projec1.PNG" alt="" width="100%">
                     <div class="project-text">
-                        <h2>Title</h2>
+                        <h5>Title</h5>
                        <div class="imgCon">
                         <div class="img"><img src="./img/html.png" alt="" width="100%"></div>
                         <div class="img"><img src="./img/css.png" alt="" width="100%"></div>
@@ -317,7 +333,7 @@
                 <div class="project">
                     <img src="./img/assesment.PNG" alt="" width="100%">
                     <div class="project-text">
-                        <h4>Assesment Web Site</h4>
+                        <h5>Assesment Web Site</h5>
                        <div class="imgCon">
                         <div class="img"><img src="./img/html.png" alt="" width="100%"></div>
                         <div class="img"><img src="./img/css.png" alt="" width="100%"></div>

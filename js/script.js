@@ -1,3 +1,4 @@
+// NAVBAR BACKGROUND
 function navbarscroll() {
   var myNav = document.getElementById("mynavbar");
   var scrollValue = window.scrollY;
@@ -6,10 +7,24 @@ function navbarscroll() {
     myNav.classList.remove("nav-colored");
   } else {
     myNav.classList.add("nav-colored");
-    myNav.classList.remove("nav-colored nav-transparent");
+    myNav.classList.remove("nav-transparent");
   }
 }
 window.addEventListener("scroll", navbarscroll);
+
+// TOP BACKGROUND
+function topscroll() {
+  var topbtn = document.getElementById("topbtn");
+  var scrollValue = window.scrollY;
+  if (scrollValue < 280) {
+    topbtn.style.display = "none";
+    topbtn.style.transition = "all .3s ease";
+  } else {
+    topbtn.style.display = "block"
+    topbtn.style.transition = "all .3s ease";
+  }
+}
+window.addEventListener("scroll", topscroll);
 
 // TYPING ANIMATION
 const text = ["Web Developer", "Web Designer", "Blogger"];

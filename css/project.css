@@ -105,6 +105,21 @@
     background-color: rgb(206, 134, 2);
 }
 
+@media (max-width: 777px){
+    .project-section{
+       padding: 50px 0;
+    }
+    .project{
+        width: 500px;
+       
+     
+    }
+    .project:hover {
+        -ms-transform: scale(1.2); /* IE 9 */
+        -webkit-transform: scale(1.2); /* Safari 3-8 */
+        transform: scale(1.2); 
+      }
+}
 
   
 

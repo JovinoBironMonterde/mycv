@@ -24,17 +24,11 @@
   background-position: center;
   background-repeat: no-repeat; */
 }
-.home-container{
-    text-align: center;
-    color: gray;
-    width: 100%;
-      /* max-width: 1500px;
-      height: 100%;
-      background-color: aquamarine; */
-      
-}
+
 
 .home-section .home-container {
+  color: gray;
+  width: 100%;
   align-items: center;
   padding: 10%;
   display: block;
@@ -60,10 +54,20 @@
   margin: 0 5%;
 }
 
-@media (max-width: 475px){
+@media (max-width: 480px){
   .hero-btn button{
     width: 100%;
     margin: 5px;
   }
+  .hero-text h1 {
+    font-size: 50px;
+  }
+  .home-section .home-container {
+    padding: 20px;
+  }
+  .home-section{
+    padding-top: 20px;
+  }
 }
+
 

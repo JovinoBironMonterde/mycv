@@ -91,7 +91,9 @@
    padding-left: 40px;
 }
 
-
+.btnsocial{
+    color: black;
+}
 .ab-icon{
     width: 50px;
     height: 50px;
@@ -102,7 +104,7 @@
     justify-content: center;
     align-items: center;
     font-size: 25px;
-    
+
 }
 .con{
     position: relative;

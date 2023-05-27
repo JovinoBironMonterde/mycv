@@ -77,9 +77,15 @@ textarea{
       z-index: 9999999 !important;
 }
 .inputbtn{
-  width: 100%;
-  border-radius: 3px;
+  width: 100% !important;
+  border-radius: 25px;
   border: none;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: center;
+  font-size: 18px;
+  background-color: orange !important;
 }
 form .mb-6{
   position: relative;
@@ -143,6 +149,16 @@ form .mb-6{
    .mb-6 .inputField:hover{
 
     outline: 1.5px solid orange !important;
+  }
+
+  @media (max-width: 650px){
+    .contact-img{
+      display: none;
+    }
+    form{
+      margin: 0;
+      width: 100%;
+    }
   }
 
 
