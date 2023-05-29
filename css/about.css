@@ -2,12 +2,12 @@
 .about-section{
     width: 100%;
     height: auto;
-    
     display: flex;
     align-items: center;
     overflow: hidden;
     background-color: white;
-    padding: 130px 0 !important;
+    padding-top: 130px!important;
+    padding-bottom: 20px;
 }
 .about-container{
     position: relative;
@@ -139,6 +139,7 @@
     }
     .about-text {
         text-align: center;
-        padding: 20px;
+        padding: 0;
+        text-align: justify;
     }
 }
