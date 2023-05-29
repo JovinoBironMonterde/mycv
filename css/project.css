@@ -2,7 +2,7 @@
     width: 100%;
     height: auto;
     padding: 150px 0;
-    background-color: #5a5552;
+    background-color: snow;
     display: flex;
     align-items: center;
 }
@@ -115,9 +115,9 @@
      
     }
     .project:hover {
-        -ms-transform: scale(1.2); /* IE 9 */
-        -webkit-transform: scale(1.2); /* Safari 3-8 */
-        transform: scale(1.2); 
+        -ms-transform: scale(1.1); /* IE 9 */
+        -webkit-transform: scale(1.1); /* Safari 3-8 */
+        transform: scale(1.1); 
       }
 }
 

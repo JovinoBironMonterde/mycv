@@ -4,7 +4,7 @@
     height: auto;
     background-color: white;
     display: flex;
-  
+ 
 }
 .contact-container{
     width: 100%;
@@ -120,7 +120,7 @@ form .mb-6{
    font-size: 14px;
    color: black;
    font-weight: 500 !important;
-   z-index: 99999999999999;
+   z-index: 9999999;
   }
     .inputField:focus +  .cstm-label,  .inputField:not(:placeholder-shown) + .cstm-label{
    transform: translateY(-1.6em);
@@ -129,7 +129,7 @@ form .mb-6{
    font-size: 14px;
    color: black;
    font-weight: 500 !important;
-   z-index: 99999999999999;
+   z-index: 9999999;
   }
   
  

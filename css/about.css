@@ -65,7 +65,17 @@
     flex: 60%;
     font-size: 20px;
 }
-.icon i{
+.about-text .icon{
+    width: 100%;
+    display: flex !important;
+    flex-wrap: wrap;
+    align-items: center !important;
+  
+}
+
+
+
+.icon .S_icon2 i{
     margin: 0 10px;
 }
 .anim-typ{
@@ -79,7 +89,7 @@
     margin: 20px 0;
 
 }
-.icon i:hover{
+.icon .S_icon2 i:hover{
  
     cursor: pointer;
     color: rgb(220, 146, 9);
@@ -142,4 +152,27 @@
         padding: 0;
         text-align: justify;
     }
+
+    
+.S_icon1, .S_icon2{
+    justify-content: center;
+}
+
+}
+@media only screen and (max-width: 390px) {
+.S_icon1{
+    width: 100% !important;
+    justify-content: center;
+}
+.btnlinked{
+    width: 100% !important;
+    justify-content: center;
+    text-align: center;
+}
+.S_icon2{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 }

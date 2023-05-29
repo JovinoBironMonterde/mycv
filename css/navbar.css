@@ -1,5 +1,5 @@
 nav{
-    position: sticky;
+    position: fixed;
     top: 0;
     width: 100%;
     margin: 0 auto;
@@ -10,6 +10,7 @@ nav{
     display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: transparent ;
 }
 .nav-con{
   position: relative;
@@ -32,7 +33,7 @@ nav{
     display: none;
  }
 .nav-transparent{
-  background-color: rgba(0, 0, 0, 0.753);
+  background-color: transparent;
 }
 .nav-colored{
     background-color: rgba(0, 0, 0, 0.829);
