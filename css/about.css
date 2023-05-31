@@ -66,6 +66,7 @@
     font-size: 20px;
 }
 .about-text .icon{
+    position: relative;
     width: 100%;
     display: flex !important;
     flex-wrap: wrap;
@@ -160,6 +161,14 @@
 
 }
 @media only screen and (max-width: 390px) {
+    .about-section{
+        padding-top: 80px !important;
+    }
+    .profile{
+        width: 250px;
+        height: 250px;
+        
+    }
 .S_icon1{
     width: 100% !important;
     justify-content: center;
@@ -168,6 +177,7 @@
     width: 100% !important;
     justify-content: center;
     text-align: center;
+    margin: 20px 0 !important;
 }
 .S_icon2{
 

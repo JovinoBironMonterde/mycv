@@ -53,6 +53,13 @@
 .hero-btn button{
   margin: 0 5%;
 }
+.linked{
+  font-weight: 500;
+}
+.linked:hover{
+  color: #fff;
+  cursor: pointer;
+}
 
 @media (max-width: 480px){
   .hero-btn button{
