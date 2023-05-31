@@ -209,7 +209,7 @@ footer{
   width: 100%;
   height: auto;
   background-color: gray;
-  padding: 45px;
+  padding: 45px 25px;
 }
 footer h3{
   display: flex;
@@ -226,9 +226,14 @@ footer h3 hr{
   display: flex;
   flex-wrap: wrap;
   padding: 20px 0;
+
 }
 .footer-icon div{
+
   margin: 0 20px;
+
+  width: 120px;
+  height: 25px;
 }
 .developer{
   position: absolute;
@@ -244,7 +249,19 @@ footer h3 hr{
 .footer-icon div span{
   margin-left: 6px;
   font-size: 14px;
+  color: black;
+}
+.footer-icon div a:hover{
+  color: #744c03;
 }
 .btnsocial{
   color: black;
+}
+@media (max-width: 530px) {
+  .footer-icon div span{
+    display: none;
+  }
+  .footer-icon div{
+    width: auto;
+  }
 }
