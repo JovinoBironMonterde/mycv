@@ -135,6 +135,12 @@
 .wordpress{
     width: 75%;
 }
+.mysql{
+    width: 75%;
+}
+.git{
+    width: 75%;
+}
 .linr-hr, .linr-hr2{
     display: none;
 }

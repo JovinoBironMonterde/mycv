@@ -27,7 +27,7 @@ function topscroll() {
 window.addEventListener("scroll", topscroll);
 
 // TYPING ANIMATION
-const text = ["Front-End Developer" , "Wordpress Developer" , "Blogger"];
+const text = ["Front-End Developer" , "Wordpress Developer" , "Blogger", "Freelancer"];
 let count = 0;
 let index = 0;
 let currentText = "";

@@ -1,5 +1,5 @@
 // TYPING ANIMATION
-const text2 = ["Front-End Developer", "Wordpress Developer", "Blogger"];
+const text2 = ["Front-End Developer", "Wordpress Developer", "Blogger", "Freelancer"];
 let count2 = 0;
 let index2 = 0;
 let currentText2 = "";
