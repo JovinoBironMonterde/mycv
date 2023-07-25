@@ -229,11 +229,17 @@ footer h3 hr{
 
 }
 .footer-icon div{
-
   margin: 0 20px;
-
   width: 120px;
-  height: 25px;
+  height: auto;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 5px;
+}
+.footer-icon div:hover{
+  background-color: #744c03;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  transition: all .4s ease;
 }
 .developer{
   position: absolute;
@@ -245,6 +251,7 @@ footer h3 hr{
   text-align: center;
   background-color: rgb(2, 12, 34);
   color: #fff;
+  font-size: 12px;
 }
 .footer-icon div span{
   margin-left: 6px;
@@ -252,12 +259,18 @@ footer h3 hr{
   color: black;
 }
 .footer-icon div a:hover{
-  color: #744c03;
+  color: black;
 }
 .btnsocial{
   color: black;
 }
 @media (max-width: 530px) {
+  .footer-icon div{
+    width: 30px !important;
+    height: 30px;
+    border-radius: 50%;
+    margin: 5%;
+  }
   .footer-icon div span{
     display: none;
   }
