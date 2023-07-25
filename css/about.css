@@ -51,14 +51,23 @@
 .conbfor::before{
     position: absolute;
     content: '';
-    width: 350px;
-    height: 350px;
+    width: 320px;
+    height: 360px;
     top: -20px;
-    left: 140px;
+    left: 160px;
   border-radius: 50%;
     border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
     rotate: 90deg;
-    background-color: rgba(255, 166, 0, 0.037);
+    background-color: rgba(255, 166, 0, 0.103);
+}
+.about-text::before{
+    content: '';
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    right: -120px;
+    background-color: rgba(255, 166, 0, 0.123);
 }
 .about-text{
     position: relative;
@@ -73,12 +82,26 @@
     align-items: center !important;
   
 }
-
-
-
-.icon .S_icon2 i{
-    margin: 0 10px;
+.S_icon2{
+    display: flex;
 }
+.About-icon{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 0 5px;
+    color: rgb(73, 73, 73);
+}
+.About-icon:hover{
+    color: orange;
+    /* display: flex;
+    align-items: center; */
+    background-color: rgba(255, 166, 0, 0.185);
+}
+
 .anim-typ{
     width: auto;
     height: 20px;
@@ -90,13 +113,7 @@
     margin: 20px 0;
 
 }
-.icon .S_icon2 i:hover{
- 
-    cursor: pointer;
-    color: rgb(220, 146, 9);
 
-    transition: 0px;
-}
 .profile img{
    padding-top: 30px;
    padding-left: 40px;
@@ -143,6 +160,7 @@
     left: 240px;
     color: black;
 }
+
 
 @media only screen and (max-width: 767px) {
     .about-container{

@@ -11,6 +11,8 @@
 }
 .project-container h1{
     margin: 30px;
+    /* background-color: radius; */
+
 }
 .projectCon{
     width: 90%;
@@ -59,20 +61,22 @@
     bottom: 0;
     left: 0;
     transition: all .5s;
-    background-color: rgba(0, 0, 0, 0.829);
+    background-color: rgba(0, 0, 0, 0.575);
     font-size: 12px;  
 }
 .stacks{
     font-size: 20px;
+    line-height: 10px;
 }
 .stacks span{
-    font-size: 14px;
+ 
+    font-size: 8px;
 }
 .imgCon{
     display: flex;
     align-items: center;
     justify-content: center;
- 
+    margin-top: 20px;
 }
 .imgCon .img{
     width: 30px;
@@ -81,14 +85,14 @@
     padding: 5px;
     border: 1px solid rgb(248, 162, 2);
     border-radius: 15px;
-    margin: 10px;
+    margin: 0 10px;
 }
 
 .div-btn{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 4px;
 }
 .div-btn a{
    width: 90px;
